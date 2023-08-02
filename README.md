@@ -14,7 +14,7 @@ This guide will provide written instructions and Terraform code for creating an 
 
 This guide will provide written instructions and Terraform/Python code for:
 
-1. Creating an Assured Workloads folder for an an Australian compliance use case
+1. Creating an Assured Workloads folder for an Australian compliance use case
 2. Setting up a VPC-SC perimeter around the Assured Workloads boundary
 3. Adding new projects to the VPC-SC perimeter, both manually and via automation
 4. Setting up Access Context Manager policy to enforce data residency controls for developers
@@ -41,7 +41,7 @@ Before proceeding with this guide, you should:
 
 Because VPC-SC protection affects cloud services functionality, we recommend that you plan the enablement of VPC-SC in advance, and consider VPC Service Controls during architecture design. It's important to keep VPC-SC design as simple as possible. We recommend that you avoid perimeter designs that use multiple bridges, perimeter network projects or a DMZ perimeter, and complex access levels. Read more about designing and architecting service perimeters [here](https://cloud.google.com/vpc-service-controls/docs/architect-perimeters).
 
-Assured Workloads folders modify Google Cloud's inherent global infrastructure to deliver products and services with FedRAMP High compliance requirements by adjusting Google Cloud products' global behavior and access paths. This includes disabling global APIs, including the products' underlying dependencies, to provide data residency. Customers are still responsible for configuring IAM permissions, networking, and GCP services to meet their compliance requirements.
+Assured Workloads folders modify Google Cloud's inherent global infrastructure to deliver products and services with compliance requirements by adjusting Google Cloud products' global behavior and access paths. This includes disabling global APIs, including the products' underlying dependencies, to provide data residency. Customers are still responsible for configuring IAM permissions, networking, and GCP services to meet their compliance requirements.
 
 ## Prerequisites
 
