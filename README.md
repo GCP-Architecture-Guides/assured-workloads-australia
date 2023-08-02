@@ -85,7 +85,7 @@ The following steps should be executed in Cloud Shell in the Google Cloud Consol
 1. To deploy the architecture open up Cloud shell and clone the [git repository](https://github.com/Urena-luis/assured-workloads-australia) using the command below.
 
 ```
-git clone https://github.com/Urena-Luis/assured-workloads-australia
+git clone https://github.com/GCP-Architecture-Guides/assured-workloads-australia.git
 ```
 
 1. Navigate to the assured-workloads-australia folder.
